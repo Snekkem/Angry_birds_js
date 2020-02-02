@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="jquery-ui.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="game">
+            <form>
+                <div class="hide-diagram">
+                    <div id="diagram">
+                        <ul>
+                            <li id="diagram-0">
+                                <div class="content">
+                                    <div class="fill">
+
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <p>A</p>
+                                    <span></span>
+                                </div>
+                            </li>
+                            <li id="diagram-1">
+                                <div class="content">
+                                    <div class="fill">
+
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <p>B</p>
+                                    <span></span>
+                                </div>
+                            </li>
+                            <li id="diagram-2">
+                                <div class="content">
+                                    <div class="fill">
+
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <p>C</p>
+                                    <span></span>
+                                </div>
+                            </li>
+                            <li id="diagram-3">
+                                <div class="content">
+                                    <div class="fill">
+
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <p>D</p>
+                                    <span></span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <section class="question">
+                    <h2>Что из этого не является косметическим средством?</h2>
+                </section>
+
+                <div id="answers">
+                    <a>
+                        <section id="a"><b>A: </b><span>Помада</span>
+                        </section>
+                    </a>
+                    <a>
+                        <section id="b"> <b>B: </b><span>Татуировка</span>
+                        </section>
+                    </a>
+                    <a>
+                        <section id="c"> <b>C: </b><span>Крем</span>
+                        </section>
+                    </a>
+                    <a>
+                        <section id="d"><b>D: </b><span>Пудра</span>
+                        </section>
+                    </a>
+                </div>
+            </form>
+        </div>
+
+        <div class="surprise">
+            <div class="help">
+                <div data-help="50/50"><img src="images/50to50.png" alt="1"></div>
+                <div data-help="hall"><img src="images/help_hall.png" alt="2"></div>
+                <div data-help="call"><i class="fas fa-phone-volume"></i></div>
+            </div>
+
+            <ul id="ulLvl">
+                <li class="white-price">15  ● 1000000
+                </li>
+                <li>14 ● 500000
+                </li>
+                <li>13 ● 250000
+                </li>
+                <li>12 ● 150000
+                </li>
+                <li>11 ● 50000
+                </li>
+                <li class="white-price">10 ● 20000
+                </li>
+                <li>9 ● 10000
+                </li>
+                <li>8 ● 5000</li>
+                <li>7 ● 3000</li>
+                <li>6 ● 2000</li>
+                <li class="white-price">5 ● 1000
+                </li>
+                <li>4 ● 500</li>
+                <li>3 ● 300</li>
+                <li>2 ● 200</li>
+                <li class="mark">1 ● 100
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+    <div id="dialog" title="Звонок другу.."> </div>
+    <div id="lose" title="You lose.."> </div>
+    <div id="win" title="You win!"> </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="jquery-ui.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
